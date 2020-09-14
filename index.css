@@ -1,10 +1,28 @@
+html {
+  background-color: aliceblue;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: large;
+}
+
 .form,
 .greetings {
   display: none;
 }
 
 .showing {
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: block;
+  font-size: xx-large;
 }
 
 @keyframes fadeIn {
@@ -20,7 +38,56 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   z-index: -1;
-  animation: fadeIn 0.5s linear;
+  animation: fadeIn 2s linear;
+}
+
+.js-weather {
+  text-align: right;
+  margin-right: 10px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.js-clock {
+  font-size: 4rem;
+}
+
+.js-clock h1 {
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.js-form input,
+.js-toDoForm input {
+  margin-top: 10px;
+  outline: none;
+  font-size: large;
+  border: none;
+  background: none;
+  text-align: center;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.js-form input ::placeholder,
+.js-toDoForm input ::placeholder {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 19px rgb(152, 152, 152);
+}
+
+.js-form input :focus,
+.js-toDoForm input :focus {
+  outline: none;
+  caret-color: white;
+}
+.js-toDoList li {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
 }
