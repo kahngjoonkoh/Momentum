@@ -10,7 +10,7 @@ function paintImage(imgNumber) {
 }
 
 function genRandom() {
-  const number = Math.ceil(Math.random() * 5);
+  const number = Math.ceil(Math.random() * 4);
   return number;
 }
 
