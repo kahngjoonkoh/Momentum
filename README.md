@@ -1,2 +1,5 @@
 # WebProductivityApp
-Made a productivity app out of Vanilla JS based on Momentum
+Made a web-based productivity app out of Vanilla JS.
+Inspired by Momentum.
+
+Dependent on the OpenWeatherMap API.
